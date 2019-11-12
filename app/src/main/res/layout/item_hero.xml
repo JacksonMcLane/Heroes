@@ -7,35 +7,33 @@
 
     <TextView
         android:id="@+id/textView_item_name"
-        android:layout_width="260dp"
-        android:layout_height="70dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginBottom="8dp"
         android:text="TextView"
-        android:textAlignment="center"
-        android:textSize="60sp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView_item_ranking"
         app:layout_constraintStart_toEndOf="@+id/textView_item_ranking"
         app:layout_constraintTop_toTopOf="@+id/textView_item_ranking"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.85"
         tools:text="The Bois" />
 
     <TextView
         android:id="@+id/textView_item_ranking"
         android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_height="70dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="TextView"
-        android:textAlignment="center"
-        android:textSize="60sp"
+        android:textSize="35sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="1." />
 
     <TextView
         android:id="@+id/textView_item_description"
-        android:layout_width="260dp"
+        android:layout_width="290dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
         android:text="TextView"

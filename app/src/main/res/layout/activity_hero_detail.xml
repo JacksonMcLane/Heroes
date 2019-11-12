@@ -8,14 +8,14 @@
 
     <TextView
         android:id="@+id/textView_detail_name"
-        android:layout_width="160dp"
+        android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:text="TextView"
-        android:textSize="30sp"
         android:textAlignment="center"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -35,12 +35,13 @@
 
     <TextView
         android:id="@+id/textView_detail_description_header"
-        android:layout_width="60dp"
+        android:layout_width="80dp"
         android:layout_height="30dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="TextView"
+        android:text="@string/description_header_textView"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView_detail_image" />
@@ -52,19 +53,21 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="TextView"
+        android:text="@string/description_header_textView"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_detail_description_header" />
 
     <TextView
         android:id="@+id/textView_detail_power_header"
-        android:layout_width="60dp"
+        android:layout_width="80dp"
         android:layout_height="30dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="TextView"
+        android:text="@string/superpower_header_textView"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_detail_description_text" />
@@ -76,19 +79,21 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="TextView"
+        android:text="@string/superpower_header_textView"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_detail_power_header" />
 
     <TextView
         android:id="@+id/textView_detail_rank_header"
-        android:layout_width="60dp"
+        android:layout_width="80dp"
         android:layout_height="30dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="TextView"
+        android:text="@string/ranking_header_textView"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_detail_power_text" />
@@ -100,7 +105,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="TextView"
+        android:text="@string/ranking_header_textView"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

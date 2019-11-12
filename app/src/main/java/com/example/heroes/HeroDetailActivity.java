@@ -21,8 +21,13 @@ public class HeroDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_hero_detail);
         wireWidgets();
         Intent lastIntent = getIntent();
-        Hero hero = lastIntent.getParcelableExtra("Hero");
-
+        Hero hero = lastIntent.getParcelableExtra(HeroesListActivity.EXTRA_HERO);
+        textViewName.setText(hero.getName());
+        textViewDescription.setText(hero.getDescription());
+        textViewRanking.setText(String.valueOf(hero.getRanking()));
+        textViewSuperPower.setText(hero.getSuperpower());
+        int resourceImage = getResources().getIdentifier(hero.getImage(), "drawable", getPackageName());
+        imageViewPicture.setImageDrawable(getResources().getDrawable(resourceImage));
 
     }
 
@@ -31,5 +36,6 @@ public class HeroDetailActivity extends AppCompatActivity {
         textViewDescription = findViewById(R.id.textView_detail_description_text);
         textViewRanking = findViewById(R.id.textView_detail_rank_text);
         textViewSuperPower = findViewById(R.id.textView_detail_power_text);
+        imageViewPicture = findViewById(R.id.imageView_detail_image);
     }
 }
